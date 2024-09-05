@@ -16,7 +16,7 @@
     ],
     "type": "module",
     "scripts": {
-        "build": "node build.js",
+        "build": "node build.js && mv dist public",
         "dev": "node build.js --dev",
         "prepare": "npm run build"
     },
